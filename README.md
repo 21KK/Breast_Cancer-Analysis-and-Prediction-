@@ -6,9 +6,10 @@ This project aims to analyze and predict breast cancer diagnoses using logistic 
 
 ### Why Breast Cancer Data Analysis matters?
 Breast cancer remains one of the most prevalent cancers globally, affecting millions of individuals each year. Early detection and effective treatment strategies are essential to improving patient outcomes. Data-driven insights play a key role in enabling innovation in diagnostics, enhancing drug safety, and paving the way for precision medicine. This project provides a foundation for identifying actionable patterns that could support these advancements.
-![image](https://github.com/user-attachments/assets/3319675d-b835-4160-95db-23fc389d6a00)
- 
+![Cancer cells](https://github.com/user-attachments/assets/5063b48e-3697-43c5-bbe4-f6a0a2183652)
+
 ---
+
 
 ## 📂 Table of Contents
 
@@ -43,11 +44,14 @@ The dataset contains **569 samples** with the following attributes:
   - **B**: Benign (Non-Cancerous)
 
 ### 🔍 Data Snapshot
-| Feature           | Mean Value (Benign) | Mean Value (Malignant) |
-|--------------------|---------------------|-------------------------|
-| Radius (mean)      | 12.1               | 17.5                   |
-| Texture (mean)     | 17.8               | 21.6                   |
-| Smoothness (mean)  | 0.09               | 0.1                    |
+![Data snapshot](https://github.com/user-attachments/assets/585fec83-97c9-44b5-bd66-7763bc7df4aa)
+
+| Feature            | Mean Value (Benign) | Mean Value (Malignant) |
+|--------------------|---------------------|------------------------|
+| Radius (mean)      | 12.1                | 17.5                   |
+| Texture (mean)     | 17.8                | 21.6                   |
+| Perimeter (mean)   | 78.07               | 115.3                  |
+| Area (mean)        | 462.8               | 978.37                 |
 
 ---
 
@@ -59,9 +63,10 @@ EDA was conducted to uncover trends and relationships in the data. Below are key
 Visualizations such as histograms and boxplots were used to understand the distributions of numerical features.
 
 **Example: Distribution of Radius Mean**  
-![Radius Mean Distribution](https://github.com/user-attachments/assets/f4b1e83a-3aca-4a8a-9b48-1934dee6d719)
+![Radius mean](https://github.com/user-attachments/assets/3d6097b4-f0ca-4d4b-a81c-d3e975e90c51)
 
-)
+
+
 
 ### 🔗 Correlation Analysis
 A heatmap was used to identify correlations among features. High correlations were found between:
@@ -69,7 +74,8 @@ A heatmap was used to identify correlations among features. High correlations we
 - **Area_mean** and **Compactness_mean**
 
 **Correlation Heatmap**  
-![Correlation Heatmap](https://github.com/user-attachments/assets/d4970272-2cde-438f-b1b4-9de8059ed900)
+![Heatmap](https://github.com/user-attachments/assets/b3945640-0db8-4d7a-a637-e9be984f1a94)
+
 
 ---
 
